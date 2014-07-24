@@ -5,16 +5,17 @@
     <title></title>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
-    <link type="text/css" rel="stylesheet" href="../libs/qunit.css"/>
-    <link type="text/css" rel="stylesheet" href="../css/jquery.alert.css"/>
-    <script type="text/javascript" src="../libs/jquery-1.11.0.js"></script>
-    <script type="text/javascript" src="../libs/qunit.js"></script>
-    <script type="text/javascript" src="../libs/qunit-extras.js"></script>
-
-    <script type="text/javascript" src="../dist/jquery.alert.js"></script>
-    <script type="text/javascript" src="jquery.alert.test.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://raw.github.com/feexon/jquery.alert/master/css/jquery.alert.css"/>
+    <script type="text/javascript" src="https://raw.github.com/feexon/jquery.alert/master/libs/jquery-1.11.0.js"></script>
+    <script type="text/javascript" src="https://raw.github.com/feexon/jquery.alert/master/dist/jquery.alert.js"></script>
 </head>
 <body>
-<div id="qunit"></div>
+<ul>
+    <li><a href="javascript:$.alert('dialog',{duration:3000})">non-sticky dialog in duration</a></li>
+    <li><a href="javascript:$.alert($.alert.messages.loading,'loading')">loading dialog</a></li>
+    <li><a href="javascript:$.alert('alert dialog',{sticky:true})">sticky dialog</a></li>
+    <li><a href="javascript:$.alert('dialog',{cancellable:false})">modal dialog</a></li>
+    <li><a href="javascript:$.alert.load()">fast loading modal dialog</a></li>
+</ul>
 </body>
 </html>

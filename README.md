@@ -1,7 +1,12 @@
+
 jquery.alert
 ============
 
-A simple jQuery "alert" message plugin. 
+A simple jQuery "alert" message plugin. You can view the example page [here](http://htmlpreview.github.com/?https://github.com/feexon/jquery.alert/blob/master/demo/jquery.alert.html).
+
+##Screenshots
+![alert dialog](screenshots/alert_dialog.png)
+![loading dialog](screenshots/loading_dialog.png)
 
 
 ## Required Files
@@ -10,6 +15,8 @@ A simple jQuery "alert" message plugin.
     <script type="text/javascript" src="jquery.js"></script>
     <script type="text/javascript" src="dist/jquery.alert.js"></script>
 ```
+
+
 ## Usage
 - simple alert
 ``` javascript
