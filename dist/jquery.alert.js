@@ -1,4 +1,5 @@
 (function () {
+    "use strict";
     var tpl = {
         format: function (variables) {
             return "<div class=\"alert-dialog\"><div class=\"dialog-mask\"></div><div class=\"dialog-panel\"><div class=\"content-view\"><div><div class=\"" +
