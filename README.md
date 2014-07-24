@@ -5,8 +5,8 @@ jquery.alert
 A simple jQuery "alert" message plugin. You can view the example page [here](http://htmlpreview.github.com/?https://github.com/feexon/jquery.alert/blob/master/demo/jquery.alert.html).
 
 ##Screenshots
-![alert dialog](screenshots/alert_dialog.png)
-![loading dialog](screenshots/loading_dialog.png)
+![alert dialog](https://raw.githubusercontent.com/feexon/jquery.alert/master/screenshots/alert_dialog.png)
+![loading dialog](https://raw.githubusercontent.com/feexon/jquery.alert/master/screenshots/loading_dialog.png)
 
 
 ## Required Files
